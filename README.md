@@ -1,6 +1,6 @@
 # Python MOCAP tools
 
-This repository contains a number of python MOCAP tools meant to recieve the live [NATNET](http://optitrack.com/products/natnet-sdk/) data from [Motive](http://optitrack.com/products/motive/) and subsequently forward this data to [OSC](https://en.wikipedia.org/wiki/Open_Sound_Control) to be able to recieve and use the data in various programs. The data is sent over OSC uisng [JSON](ttps://www.w3schools.com/js/js_json_intro.asp) notation.
+This repository contains a number of python MOCAP tools meant to receive the live [NATNET](http://optitrack.com/products/natnet-sdk/) data from [Motive](http://optitrack.com/products/motive/) and subsequently forward this data to [OSC](https://en.wikipedia.org/wiki/Open_Sound_Control) to be able to receive and use the data in various programs. The data is sent over OSC using [JSON](ttps://www.w3schools.com/js/js_json_intro.asp) notation.
 
 * The tools are compatible with Python2 and Python3
 * The tools send everything (Skeleton&Rigid Bodies) as rigid bodies
@@ -9,7 +9,7 @@ This repository contains a number of python MOCAP tools meant to recieve the liv
   * the optirx library is included in the source code
   * it uses a fork of the optirx library with some minor fixes [link](https://github.com/ikbenmacje/python-optirx)
 
-A comprehesive MOCAP manual using these tools can be found at the [MOCAP_manual](https://github.com/hku-ect/MOCAP_manual) github repository of [HKU-ECT](https://github.com/hku-ect/)
+A comprehensive MOCAP manual using these tools can be found at the [MOCAP_manual](https://github.com/hku-ect/MOCAP_manual) github repository of [HKU-ECT](https://github.com/hku-ect/)
 
 
 ### These tools consist of:
@@ -17,7 +17,7 @@ A comprehesive MOCAP manual using these tools can be found at the [MOCAP_manual]
 
 ## Python MocapBridge
 
-This software recieves the [NATNET](http://optitrack.com/products/natnet-sdk/) data and sends it out with [OSC](https://en.wikipedia.org/wiki/Open_Sound_Control) as [JSON](https://www.w3schools.com/js/js_json_intro.asp).
+This software receives the [NATNET](http://optitrack.com/products/natnet-sdk/) data and sends it out with [OSC](https://en.wikipedia.org/wiki/Open_Sound_Control) as [JSON](https://www.w3schools.com/js/js_json_intro.asp).
 For more information see the [python README](https://github.com/hku-ect/MoCap/blob/master/python/README.md)
 
 
@@ -35,4 +35,4 @@ Here you will find Unity packages to help you use live MOCAP data in Unity. For 
 Here you will find tools to work with the MOCAP data live in [Blender](https://www.blender.org/). For more information see the [blender README](https://github.com/hku-ect/Python-MOCAP-tools/blob/master/blender/README.md)
 
 ## Processing
-Here you will find an example processing sketch which recieves the [OSC](https://en.wikipedia.org/wiki/Open_Sound_Control) data and decodes the data. 
+Here you will find an example processing sketch which receives the [OSC](https://en.wikipedia.org/wiki/Open_Sound_Control) data and decodes the data. 
